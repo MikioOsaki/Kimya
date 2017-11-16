@@ -29,9 +29,5 @@ public class SplashActivity extends AppCompatActivity {
             }
         };
         timer.start();
-
-/*        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-        finish();*/
     }
 }

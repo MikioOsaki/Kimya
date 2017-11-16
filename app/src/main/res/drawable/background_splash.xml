@@ -5,13 +5,13 @@
     <item
         android:drawable="@color/colorCorporate"/>
     <item
-        android:gravity="start">
+        android:gravity="center_horizontal">
         <bitmap
-            android:gravity="center"
+            android:gravity="center_vertical"
             android:src="@mipmap/kimya" />
     </item>
     <item
-        android:gravity="end"
+        android:gravity="center_horizontal"
         android:top="300dp">
         <bitmap
             android:gravity="center"

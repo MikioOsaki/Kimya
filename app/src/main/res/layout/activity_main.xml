@@ -19,6 +19,32 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextGefahrenstoff"
         android:text="Finden"/>
+    <Button
+        android:id="@+id/buttonQRSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSearch"
+        android:text="Mit QR Code finden"/>
 
+    <Button
+        android:id="@+id/buttonWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonQRSearch"
+        android:text="SToff googeln" />
+
+    <Button
+        android:id="@+id/buttonPDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonWeb"
+        android:text="Open PDF" />
+
+    <Button
+        android:id="@+id/buttonForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonPDF"
+        android:text="+ Neue Anwendung" />
 
 </RelativeLayout>
